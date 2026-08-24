@@ -1,0 +1,218 @@
+[
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_icon_account_circle_round.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/icon_account_circle_round.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_icon_redo_round.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/icon_redo_round.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/layout_project_read.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/layout/project_read.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_icon_undo_round.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/icon_undo_round.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/layout_project_view.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/layout/project_view.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_icon_check_round.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/icon_check_round.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_ic_menu_more.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/ic_menu_more.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/xml_file_paths.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_icon_keyboard_backspace_round.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/icon_keyboard_backspace_round.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/layout_main.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/layout/main.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_icon_lock_round.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/icon_lock_round.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/xml_accessibility_config.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/xml/accessibility_config.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_ic_idea.png.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/ic_idea.png"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/layout_all_projects.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/layout/all_projects.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/layout_bottom_sheet_editor_settings.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/layout/bottom_sheet_editor_settings.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_ic_my_paste_icon.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/ic_my_paste_icon.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/layout_mmm.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/layout/mmm.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_icon_push_pin_round.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/icon_push_pin_round.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/layout_convert.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/layout/convert.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/layout_global_ideas.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/layout/global_ideas.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.megh.notepad.app-main-39:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_ic_my_notes_icon.png.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/ic_my_notes_icon.png"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_ic_menu_close_clear_cancelic_menu_close_clear_cancel.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/ic_menu_close_clear_cancelic_menu_close_clear_cancel.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_icon_details_round.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/icon_details_round.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_ic_menu_today.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/ic_menu_today.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/layout_folder.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/layout/folder.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/layout_characters.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/layout/characters.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/layout_character_details.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/layout/character_details.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/layout_connect.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/layout/connect.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_ic_latter_box.png.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/ic_latter_box.png"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_ebook.png.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/ebook.png"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_ic_anonymous.png.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/ic_anonymous.png"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_ic_menu_save.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/ic_menu_save.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/xml_device_admin.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/xml/device_admin.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_ic_folder.png.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/ic_folder.png"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/layout_bottom_sheet_stats.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/layout/bottom_sheet_stats.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_icon_share_round.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/icon_share_round.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_ic_my_clear_icon.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/ic_my_clear_icon.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/layout_item_toc.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/layout/item_toc.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_default_image.png.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/default_image.png"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_ic_my_editor_icon.png.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/ic_my_editor_icon.png"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_icon_format_list_bulleted_round.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/icon_format_list_bulleted_round.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_ic_menu_edit.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/ic_menu_edit.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_ic_my_copy_icon.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/ic_my_copy_icon.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_ic_my_settings_icon.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/ic_my_settings_icon.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_arrow_down_float.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/arrow_down_float.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_ic_my_draft_icon.png.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/ic_my_draft_icon.png"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_icon_more_vert_round.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/icon_more_vert_round.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_icon_edit_note_round.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/icon_edit_note_round.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable_circle_border_bg.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable/circle_border_bg.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/layout_jjj.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/layout/jjj.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/drawable-xhdpi_ic_menu_delete.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/drawable-xhdpi/ic_menu_delete.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-debug-37:/layout_settings.xml.flat",
+        "source": "com.megh.notepad.app-main-39:/layout/settings.xml"
+    }
+]

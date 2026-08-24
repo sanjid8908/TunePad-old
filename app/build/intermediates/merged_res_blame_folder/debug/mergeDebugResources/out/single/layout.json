@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "com.megh.notepad.app-mergeDebugResources-36:/layout/mmm.xml",
+        "source": "com.megh.notepad.app-main-39:/layout/mmm.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-mergeDebugResources-36:/layout/project_read.xml",
+        "source": "com.megh.notepad.app-main-39:/layout/project_read.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-mergeDebugResources-36:/layout/connect.xml",
+        "source": "com.megh.notepad.app-main-39:/layout/connect.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-mergeDebugResources-36:/layout/character_details.xml",
+        "source": "com.megh.notepad.app-main-39:/layout/character_details.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-mergeDebugResources-36:/layout/global_ideas.xml",
+        "source": "com.megh.notepad.app-main-39:/layout/global_ideas.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-mergeDebugResources-36:/layout/project_view.xml",
+        "source": "com.megh.notepad.app-main-39:/layout/project_view.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-mergeDebugResources-36:/layout/characters.xml",
+        "source": "com.megh.notepad.app-main-39:/layout/characters.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-mergeDebugResources-36:/layout/main.xml",
+        "source": "com.megh.notepad.app-main-39:/layout/main.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-mergeDebugResources-36:/layout/settings.xml",
+        "source": "com.megh.notepad.app-main-39:/layout/settings.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-mergeDebugResources-36:/layout/folder.xml",
+        "source": "com.megh.notepad.app-main-39:/layout/folder.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-mergeDebugResources-36:/layout/all_projects.xml",
+        "source": "com.megh.notepad.app-main-39:/layout/all_projects.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-mergeDebugResources-36:/layout/item_toc.xml",
+        "source": "com.megh.notepad.app-main-39:/layout/item_toc.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-mergeDebugResources-36:/layout/bottom_sheet_stats.xml",
+        "source": "com.megh.notepad.app-main-39:/layout/bottom_sheet_stats.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-mergeDebugResources-36:/layout/jjj.xml",
+        "source": "com.megh.notepad.app-main-39:/layout/jjj.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-mergeDebugResources-36:/layout/bottom_sheet_editor_settings.xml",
+        "source": "com.megh.notepad.app-main-39:/layout/bottom_sheet_editor_settings.xml"
+    },
+    {
+        "merged": "com.megh.notepad.app-mergeDebugResources-36:/layout/convert.xml",
+        "source": "com.megh.notepad.app-main-39:/layout/convert.xml"
+    }
+]

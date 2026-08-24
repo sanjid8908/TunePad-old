@@ -1,0 +1,524 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/rootSettings"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#192125">
+	<LinearLayout
+		android:id="@+id/toolbarSettings"
+		android:layout_width="match_parent"
+		android:layout_height="64dp"
+		android:background="#212B2F"
+		android:gravity="center_vertical"
+		android:orientation="horizontal"
+		android:paddingHorizontal="12dp"
+		android:elevation="6dp">
+		<ImageView
+			android:id="@+id/btnSettingsBack"
+			android:layout_width="44dp"
+			android:layout_height="44dp"
+			android:padding="10dp"
+			android:background="?attr/selectableItemBackgroundBorderless"
+			android:scaleType="fitCenter"
+			android:src="@android:drawable/ic_menu_revert"
+			app:tint="#108F6E" />
+		<TextView
+			android:id="@+id/tvSettingsTitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="সেটিংস"
+			android:textSize="22sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF"
+			android:layout_marginStart="16dp" />
+	</LinearLayout>
+	<ScrollView
+		android:id="@+id/vscroll16"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:fillViewport="true">
+		<LinearLayout
+			android:id="@+id/linear13"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="20dp"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/tvCategorySecurity"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="8dp"
+				android:layout_marginBottom="12dp"
+				android:text="অ্যাকাউন্ট ও নিরাপত্তা"
+				android:textSize="15sp"
+				android:textStyle="bold"
+				android:textColor="#108F6E" />
+			<LinearLayout
+				android:id="@+id/set_profile"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="16dp"
+				android:background="?attr/selectableItemBackground"
+				android:gravity="center_vertical">
+				<ImageView
+					android:id="@+id/iconProfile"
+					android:layout_width="26dp"
+					android:layout_height="26dp"
+					android:scaleType="fitCenter"
+					android:src="@android:drawable/ic_menu_myplaces"
+					app:tint="#9CA8AE" />
+				<LinearLayout
+					android:id="@+id/linear14"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:layout_marginStart="20dp">
+					<TextView
+						android:id="@+id/tvProfileTitle"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="প্রোফাইল"
+						android:textSize="17sp"
+						android:textColor="#FFFFFF" />
+					<TextView
+						android:id="@+id/tvProfileSub"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="আপনার অ্যাকাউন্ট পরিচালনা করুন"
+						android:textSize="13sp"
+						android:textColor="#9CA8AE" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/set_applock"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="16dp"
+				android:background="?attr/selectableItemBackground"
+				android:gravity="center_vertical">
+				<ImageView
+					android:id="@+id/iconLock"
+					android:layout_width="26dp"
+					android:layout_height="26dp"
+					android:scaleType="fitCenter"
+					android:src="@android:drawable/ic_secure"
+					app:tint="#9CA8AE" />
+				<LinearLayout
+					android:id="@+id/linear15"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:layout_marginStart="20dp">
+					<TextView
+						android:id="@+id/tvLockTitle"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="অ্যাপ লক"
+						android:textSize="17sp"
+						android:textColor="#FFFFFF" />
+					<TextView
+						android:id="@+id/tvLockSub"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="অ্যাপ খুলতে পিন কোড সেট করুন"
+						android:textSize="13sp"
+						android:textColor="#9CA8AE" />
+				</LinearLayout>
+			</LinearLayout>
+			<TextView
+				android:id="@+id/tvCategoryDesign"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="28dp"
+				android:layout_marginBottom="12dp"
+				android:text="ডিজাইন ও ফন্ট"
+				android:textSize="15sp"
+				android:textStyle="bold"
+				android:textColor="#108F6E" />
+			<LinearLayout
+				android:id="@+id/set_theme"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="16dp"
+				android:background="?attr/selectableItemBackground"
+				android:gravity="center_vertical">
+				<ImageView
+					android:id="@+id/iconTheme"
+					android:layout_width="26dp"
+					android:layout_height="26dp"
+					android:scaleType="fitCenter"
+					android:src="@android:drawable/ic_menu_gallery"
+					app:tint="#9CA8AE" />
+				<LinearLayout
+					android:id="@+id/linear16"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:layout_marginStart="20dp">
+					<TextView
+						android:id="@+id/tvThemeTitle"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="কালার থিম"
+						android:textSize="17sp"
+						android:textColor="#FFFFFF" />
+					<TextView
+						android:id="@+id/tvThemeSub"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="ডার্ক টিল (ডিফল্ট)"
+						android:textSize="13sp"
+						android:textColor="#9CA8AE" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/set_font_style"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="16dp"
+				android:background="?attr/selectableItemBackground"
+				android:gravity="center_vertical">
+				<ImageView
+					android:id="@+id/iconFontStyle"
+					android:layout_width="26dp"
+					android:layout_height="26dp"
+					android:scaleType="fitCenter"
+					android:src="@android:drawable/ic_menu_sort_alphabetically"
+					app:tint="#9CA8AE" />
+				<LinearLayout
+					android:id="@+id/linear17"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:layout_marginStart="20dp">
+					<TextView
+						android:id="@+id/tvFontTitle"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="ফন্ট স্টাইল"
+						android:textSize="17sp"
+						android:textColor="#FFFFFF" />
+					<TextView
+						android:id="@+id/tvFontSub"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="সিস্টেম ডিফল্ট ফন্ট"
+						android:textSize="13sp"
+						android:textColor="#9CA8AE" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/set_font_size"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="16dp"
+				android:background="?attr/selectableItemBackground"
+				android:gravity="center_vertical">
+				<ImageView
+					android:id="@+id/iconFontSize"
+					android:layout_width="26dp"
+					android:layout_height="26dp"
+					android:scaleType="fitCenter"
+					android:src="@android:drawable/ic_menu_sort_by_size"
+					app:tint="#9CA8AE" />
+				<LinearLayout
+					android:id="@+id/linear18"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:layout_marginStart="20dp">
+					<TextView
+						android:id="@+id/tvSizeTitle"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="অক্ষরের আকার"
+						android:textSize="17sp"
+						android:textColor="#FFFFFF" />
+					<TextView
+						android:id="@+id/tvSizeSub"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="ছোট / মাঝারি / বড়"
+						android:textSize="13sp"
+						android:textColor="#9CA8AE" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/set_layout"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="16dp"
+				android:background="?attr/selectableItemBackground"
+				android:gravity="center_vertical"
+				android:visibility="gone">
+				<ImageView
+					android:id="@+id/iconLayout"
+					android:layout_width="26dp"
+					android:layout_height="26dp"
+					android:scaleType="fitCenter"
+					android:src="@android:drawable/ic_menu_sort_by_size"
+					app:tint="#9CA8AE" />
+				<LinearLayout
+					android:id="@+id/linear19"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:layout_marginStart="20dp">
+					<TextView
+						android:id="@+id/tvLayoutTitle"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="নোটস লেআউট"
+						android:textSize="17sp"
+						android:textColor="#FFFFFF" />
+					<TextView
+						android:id="@+id/tvLayoutSub"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="গ্রিড ভিউ / লিস্ট ভিউ"
+						android:textSize="13sp"
+						android:textColor="#9CA8AE" />
+				</LinearLayout>
+			</LinearLayout>
+			<TextView
+				android:id="@+id/tvCategoryData"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="28dp"
+				android:layout_marginBottom="12dp"
+				android:text="ডেটা ও ব্যাকআপ"
+				android:textSize="15sp"
+				android:textStyle="bold"
+				android:textColor="#108F6E" />
+			<LinearLayout
+				android:id="@+id/set_sync"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="16dp"
+				android:background="?attr/selectableItemBackground"
+				android:gravity="center_vertical">
+				<ImageView
+					android:id="@+id/iconSync"
+					android:layout_width="26dp"
+					android:layout_height="26dp"
+					android:scaleType="fitCenter"
+					android:src="@android:drawable/ic_menu_upload"
+					app:tint="#9CA8AE" />
+				<LinearLayout
+					android:id="@+id/linear20"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:layout_marginStart="20dp">
+					<TextView
+						android:id="@+id/tvSyncTitle"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="ক্লাউড সিঙ্ক"
+						android:textSize="17sp"
+						android:textColor="#FFFFFF" />
+					<TextView
+						android:id="@+id/tvSyncSub"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="অটো-সিঙ্ক চালু আছে (এনক্রিপ্টেড)"
+						android:textSize="13sp"
+						android:textColor="#108F6E" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/connect_partner"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="16dp"
+				android:background="?attr/selectableItemBackground"
+				android:gravity="center_vertical">
+				<ImageView
+					android:id="@+id/imageview2"
+					android:layout_width="26dp"
+					android:layout_height="26dp"
+					android:scaleType="fitCenter"
+					android:src="@android:drawable/ic_menu_upload"
+					app:tint="#9CA8AE" />
+				<LinearLayout
+					android:id="@+id/linear2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:layout_marginStart="20dp">
+					<TextView
+						android:id="@+id/tvcpartnerTitle"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="পার্টনার"
+						android:textSize="17sp"
+						android:textColor="#FFFFFF" />
+					<TextView
+						android:id="@+id/textview2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="পার্টনার যুক্ত করুন"
+						android:textSize="13sp"
+						android:textColor="#108F6E" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/set_autosave"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="16dp"
+				android:background="?attr/selectableItemBackground"
+				android:gravity="center_vertical">
+				<ImageView
+					android:id="@+id/iconAutoSave"
+					android:layout_width="26dp"
+					android:layout_height="26dp"
+					android:scaleType="fitCenter"
+					android:src="@android:drawable/ic_menu_save"
+					app:tint="#9CA8AE" />
+				<LinearLayout
+					android:id="@+id/linear21"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:layout_marginStart="20dp">
+					<TextView
+						android:id="@+id/tvAutoSaveTitle"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="অটো-সেভ"
+						android:textSize="17sp"
+						android:textColor="#FFFFFF" />
+					<TextView
+						android:id="@+id/tvAutoSaveSub"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="রিয়েল-টাইম সেভিং চালু আছে"
+						android:textSize="13sp"
+						android:textColor="#9CA8AE" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/set_export"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="16dp"
+				android:background="?attr/selectableItemBackground"
+				android:gravity="center_vertical">
+				<ImageView
+					android:id="@+id/iconExport"
+					android:layout_width="26dp"
+					android:layout_height="26dp"
+					android:scaleType="fitCenter"
+					android:src="@android:drawable/ic_menu_share"
+					app:tint="#9CA8AE" />
+				<LinearLayout
+					android:id="@+id/linear22"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:layout_marginStart="20dp">
+					<TextView
+						android:id="@+id/tvExportTitle"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="ডেটা এক্সপোর্ট"
+						android:textSize="17sp"
+						android:textColor="#FFFFFF" />
+					<TextView
+						android:id="@+id/tvExportSub"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="নোটগুলো TXT ফাইলে সেভ করুন"
+						android:textSize="13sp"
+						android:textColor="#9CA8AE" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/set_trash"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="16dp"
+				android:background="?attr/selectableItemBackground"
+				android:gravity="center_vertical">
+				<ImageView
+					android:id="@+id/iconTrash"
+					android:layout_width="26dp"
+					android:layout_height="26dp"
+					android:scaleType="fitCenter"
+					android:src="@android:drawable/ic_menu_delete"
+					app:tint="#9CA8AE" />
+				<LinearLayout
+					android:id="@+id/linear23"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:layout_marginStart="20dp">
+					<TextView
+						android:id="@+id/tvTrashTitle"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="রিসাইকেল বিন"
+						android:textSize="17sp"
+						android:textColor="#FFFFFF" />
+					<TextView
+						android:id="@+id/tvTrashSub"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="মুছে ফেলা নোট ফিরিয়ে আনুন"
+						android:textSize="13sp"
+						android:textColor="#9CA8AE" />
+				</LinearLayout>
+			</LinearLayout>
+			<TextView
+				android:id="@+id/tvCategoryAbout"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="28dp"
+				android:layout_marginBottom="12dp"
+				android:text="অ্যাপ সম্পর্কে"
+				android:textSize="15sp"
+				android:textStyle="bold"
+				android:textColor="#108F6E" />
+			<LinearLayout
+				android:id="@+id/set_about"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="16dp"
+				android:background="?attr/selectableItemBackground"
+				android:gravity="center_vertical">
+				<ImageView
+					android:id="@+id/iconAbout"
+					android:layout_width="26dp"
+					android:layout_height="26dp"
+					android:scaleType="fitCenter"
+					android:src="@android:drawable/ic_menu_info_details"
+					app:tint="#9CA8AE" />
+				<LinearLayout
+					android:id="@+id/linear24"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:layout_marginStart="20dp">
+					<TextView
+						android:id="@+id/tvAboutTitle"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="আমাদের সম্পর্কে"
+						android:textSize="17sp"
+						android:textColor="#FFFFFF" />
+					<TextView
+						android:id="@+id/tvAboutSub"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="ভালোবাসায় তৈরি ❤️ ভার্সন ১.০"
+						android:textSize="13sp"
+						android:textColor="#9CA8AE" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

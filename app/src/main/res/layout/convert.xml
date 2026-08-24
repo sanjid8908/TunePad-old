@@ -1,0 +1,234 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/rootConverter"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#192125">
+	<LinearLayout
+		android:id="@+id/toolbarConverter"
+		android:layout_width="match_parent"
+		android:layout_height="64dp"
+		android:background="#212B2F"
+		android:gravity="center_vertical"
+		android:orientation="horizontal"
+		android:paddingHorizontal="12dp"
+		android:elevation="6dp">
+		<ImageView
+			android:id="@+id/btnConvBack"
+			android:layout_width="44dp"
+			android:layout_height="44dp"
+			android:padding="10dp"
+			android:background="?attr/selectableItemBackgroundBorderless"
+			android:src="@drawable/icon_keyboard_backspace_round"
+			android:scaleType="fitCenter"
+			app:tint="#108F6E" />
+		<TextView
+			android:id="@+id/tvConvTitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="মেরোসা কনভার্টার"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF"
+			android:layout_marginStart="16dp" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linear37"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="16dp"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/cardInput"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:padding="16dp"
+			android:background="#212B2F"
+			android:orientation="vertical"
+			android:layout_weight="1"
+			android:elevation="2dp">
+			<RelativeLayout
+				android:id="@+id/relativelayout19"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="12dp">
+				<TextView
+					android:id="@+id/tvInputLabel"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="ইনপুট টেক্সট"
+					android:textSize="14sp"
+					android:textStyle="bold"
+					android:textColor="#108F6E"
+					android:layout_centerVertical="true" />
+				<LinearLayout
+					android:id="@+id/linear38"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center_vertical"
+					android:orientation="horizontal"
+					android:layout_alignParentEnd="true">
+					<ImageView
+						android:id="@+id/btnInPaste"
+						android:layout_width="32dp"
+						android:layout_height="32dp"
+						android:padding="6dp"
+						android:background="?attr/selectableItemBackgroundBorderless"
+						android:src="@drawable/ic_my_paste_icon"
+						android:scaleType="fitCenter"
+						app:tint="#9CA8AE" />
+					<ImageView
+						android:id="@+id/btnInCopy"
+						android:layout_width="32dp"
+						android:layout_height="32dp"
+						android:padding="6dp"
+						android:background="?attr/selectableItemBackgroundBorderless"
+						android:src="@drawable/ic_my_copy_icon"
+						android:scaleType="fitCenter"
+						android:layout_marginStart="8dp"
+						app:tint="#9CA8AE" />
+					<ImageView
+						android:id="@+id/btnInClear"
+						android:layout_width="32dp"
+						android:layout_height="32dp"
+						android:padding="6dp"
+						android:background="?attr/selectableItemBackgroundBorderless"
+						android:src="@drawable/ic_my_clear_icon"
+						android:scaleType="fitCenter"
+						android:layout_marginStart="8dp"
+						app:tint="#E53935" />
+				</LinearLayout>
+			</RelativeLayout>
+			<ScrollView
+				android:id="@+id/vscroll7"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:fillViewport="true"
+				android:fadeScrollbars="false">
+				<EditText
+					android:id="@+id/etInputText"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textSize="16sp"
+					android:textColor="#FFFFFF"
+					android:hint="এখানে আপনার লেখা বা মেরোসা কোড দিন..."
+					android:textColorHint="#6F7D82"
+					android:gravity="top|start"
+					android:background="@null"
+					android:inputType="textMultiLine"
+					android:minHeight="120dp" />
+			</ScrollView>
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear39"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="16dp"
+			android:layout_marginBottom="16dp"
+			android:orientation="horizontal"
+			android:weightSum="2">
+			<TextView
+				android:id="@+id/btnConvertAction"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:background="#108F6E"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="কনভার্ট করুন"
+				android:textSize="15sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"
+				android:layout_weight="1.3"
+				android:layout_marginEnd="8dp"
+				android:paddingVertical="10dp" />
+			<TextView
+				android:id="@+id/btnClearAll"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:background="#E53935"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="সব মুছুন"
+				android:textSize="15sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"
+				android:layout_weight="0.7"
+				android:layout_marginStart="8dp"
+				android:paddingVertical="10dp" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/cardOutput"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:padding="16dp"
+			android:background="#212B2F"
+			android:orientation="vertical"
+			android:layout_weight="1"
+			android:elevation="2dp">
+			<RelativeLayout
+				android:id="@+id/relativelayout20"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="12dp">
+				<TextView
+					android:id="@+id/tvOutputLabel"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="আউটপুট (ফলাফল)"
+					android:textSize="14sp"
+					android:textStyle="bold"
+					android:textColor="#108F6E"
+					android:layout_centerVertical="true" />
+				<LinearLayout
+					android:id="@+id/linear40"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center_vertical"
+					android:orientation="horizontal"
+					android:layout_alignParentEnd="true">
+					<ImageView
+						android:id="@+id/btnOutCopy"
+						android:layout_width="32dp"
+						android:layout_height="32dp"
+						android:padding="6dp"
+						android:background="?attr/selectableItemBackgroundBorderless"
+						android:src="@drawable/ic_my_copy_icon"
+						android:scaleType="fitCenter"
+						app:tint="#9CA8AE" />
+					<ImageView
+						android:id="@+id/btnOutClear"
+						android:layout_width="32dp"
+						android:layout_height="32dp"
+						android:padding="6dp"
+						android:background="?attr/selectableItemBackgroundBorderless"
+						android:src="@drawable/ic_my_clear_icon"
+						android:scaleType="fitCenter"
+						android:layout_marginStart="8dp"
+						app:tint="#E53935" />
+				</LinearLayout>
+			</RelativeLayout>
+			<ScrollView
+				android:id="@+id/vscroll8"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:fillViewport="true"
+				android:fadeScrollbars="false">
+				<EditText
+					android:id="@+id/etOutputText"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textSize="16sp"
+					android:textColor="#FFFFFF"
+					android:hint="ফলাফল এখানে দেখাবে..."
+					android:textColorHint="#6F7D82"
+					android:gravity="top|start"
+					android:background="@null"
+					android:inputType="textMultiLine"
+					android:minHeight="120dp" />
+			</ScrollView>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

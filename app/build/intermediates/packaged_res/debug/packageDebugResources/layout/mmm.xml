@@ -1,0 +1,777 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#121212">
+	<FrameLayout
+		android:id="@+id/frame_layout234"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@id/bottom_navigation">
+		<RelativeLayout
+			android:id="@+id/layout_home"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#121212"
+			android:visibility="visible">
+			<ScrollView
+				android:id="@+id/vscroll10"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:fillViewport="true"
+				android:scrollbars="none">
+				<LinearLayout
+					android:id="@+id/linear45"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="20dp"
+					android:orientation="vertical">
+					<LinearLayout
+						android:id="@+id/linear46"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="10dp"
+						android:layout_marginBottom="24dp"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/tvHomeGreeting"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="হ্যালো, শুভ্রা ✨"
+							android:textSize="26sp"
+							android:textStyle="bold"
+							android:textColor="#FFFFFF" />
+						<TextView
+							android:id="@+id/tvHomeQuote"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginTop="4dp"
+							android:text="আজকের দিনটি নতুন কিছু সৃষ্টির জন্য দারুণ!"
+							android:textSize="14sp"
+							android:textColor="#9CA8AE" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/dailyTargetCard"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="10dp"
+						android:padding="18dp"
+						android:orientation="vertical"
+						android:elevation="4dp">
+						<LinearLayout
+							android:id="@+id/linear16"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:gravity="center_vertical"
+							android:orientation="horizontal">
+							<TextView
+								android:id="@+id/tvDailyTargetTitle"
+								android:layout_width="0dp"
+								android:layout_height="wrap_content"
+								android:text="আজকের টার্গেট 🎯"
+								android:textSize="18sp"
+								android:textStyle="bold"
+								android:layout_weight="1" />
+							<TextView
+								android:id="@+id/tvDailyProgressText"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="0 / 500 শব্দ"
+								android:textSize="14sp"
+								android:textStyle="bold" />
+						</LinearLayout>
+						<ProgressBar
+							android:id="@+id/pbDailyTarget"
+							android:layout_width="match_parent"
+							android:layout_height="10dp"
+							android:layout_marginTop="16dp"
+							android:max="500"
+							android:indeterminate="false"
+							style="?android:progressBarStyleHorizontal" />
+					</LinearLayout>
+					<RelativeLayout
+						android:id="@+id/relativelayout28"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="12dp">
+						<TextView
+							android:id="@+id/tvProjectsTitle"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="আমার প্রজেক্টসমূহ"
+							android:textSize="18sp"
+							android:textStyle="bold"
+							android:textColor="#FFFFFF" />
+						<TextView
+							android:id="@+id/btnNewProject"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:background="?attr/selectableItemBackground"
+							android:text="+ নতুন প্রজেক্ট"
+							android:textSize="14sp"
+							android:textStyle="bold"
+							android:textColor="#108F6E"
+							android:layout_alignParentEnd="true" />
+					</RelativeLayout>
+					<LinearLayout
+						android:id="@+id/projectsContainer"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="28dp"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/tvEmptyProjects"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="16dp"
+							android:text="এখনো কোনো প্রজেক্ট তৈরি করা হয়নি!"
+							android:textSize="14sp"
+							android:textColor="#9CA8AE" />
+					</LinearLayout>
+					<TextView
+						android:id="@+id/tvQuickTools"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="16dp"
+						android:text="কুইক অ্যাকশন"
+						android:textSize="18sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF" />
+					<LinearLayout
+						android:id="@+id/linear48"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="28dp"
+						android:orientation="horizontal"
+						android:weightSum="4">
+						<LinearLayout
+							android:id="@+id/btnGlobalIdeas"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="2dp"
+							android:layout_marginRight="2dp"
+							android:gravity="center_horizontal|center_vertical"
+							android:orientation="vertical"
+							android:layout_weight="1">
+							<ImageView
+								android:id="@+id/imageview5"
+								android:layout_width="48dp"
+								android:layout_height="48dp"
+								android:padding="12dp"
+								android:background="#1E1E24"
+								android:src="@drawable/ic_idea"
+								android:scaleType="fitCenter"
+								app:tint="#8AB4F8" />
+							<TextView
+								android:id="@+id/textview21"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="4dp"
+								android:layout_marginBottom="4dp"
+								android:text="আইডিয়া"
+								android:textSize="12sp"
+								android:textColor="#9CA8AE" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/btnQuickFolder"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="2dp"
+							android:layout_marginRight="2dp"
+							android:gravity="center_horizontal|center_vertical"
+							android:orientation="vertical"
+							android:layout_weight="1">
+							<ImageView
+								android:id="@+id/imageview6"
+								android:layout_width="48dp"
+								android:layout_height="48dp"
+								android:padding="12dp"
+								android:background="#1E1E24"
+								android:src="@drawable/ic_folder"
+								android:scaleType="fitCenter"
+								app:tint="#34A853" />
+							<TextView
+								android:id="@+id/textview22"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="4dp"
+								android:layout_marginBottom="4dp"
+								android:text="ফোল্ডার"
+								android:textSize="12sp"
+								android:textColor="#9CA8AE" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/btnQuickCharacters"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="2dp"
+							android:layout_marginRight="2dp"
+							android:gravity="center_horizontal|center_vertical"
+							android:orientation="vertical"
+							android:layout_weight="1">
+							<ImageView
+								android:id="@+id/imageview7"
+								android:layout_width="48dp"
+								android:layout_height="48dp"
+								android:padding="12dp"
+								android:background="#1E1E24"
+								android:src="@drawable/ic_anonymous"
+								android:scaleType="fitCenter"
+								app:tint="#108F6E" />
+							<TextView
+								android:id="@+id/textview23"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="4dp"
+								android:layout_marginBottom="4dp"
+								android:text="ক্যারেক্টার কার্ড"
+								android:textSize="12sp"
+								android:textColor="#9CA8AE" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/btnQuickBrowse"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="2dp"
+							android:layout_marginRight="2dp"
+							android:gravity="center_horizontal|center_vertical"
+							android:orientation="vertical"
+							android:layout_weight="1">
+							<ImageView
+								android:id="@+id/imageview8"
+								android:layout_width="48dp"
+								android:layout_height="48dp"
+								android:padding="12dp"
+								android:background="#1E1E24"
+								android:src="@drawable/ic_latter_box"
+								android:scaleType="fitCenter"
+								app:tint="#E53935" />
+							<TextView
+								android:id="@+id/textview24"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="4dp"
+								android:layout_marginBottom="4dp"
+								android:text="ভল্ট"
+								android:textSize="12sp"
+								android:textColor="#9CA8AE" />
+						</LinearLayout>
+					</LinearLayout>
+					<TextView
+						android:id="@+id/tvContinueWriting"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="12dp"
+						android:text="সর্বশেষ লেখা..."
+						android:textSize="18sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF" />
+					<LinearLayout
+						android:id="@+id/cardContinue"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="16dp"
+						android:background="#212B2F"
+						android:orientation="vertical"
+						android:elevation="2dp">
+						<TextView
+							android:id="@+id/textview25"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginBottom="8dp"
+							android:text="পর্ব ১২ - অজানা গন্তব্য"
+							android:textSize="16sp"
+							android:textStyle="bold"
+							android:textColor="#FFFFFF" />
+						<TextView
+							android:id="@+id/textview26"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:text="মেঘলা আকাশ দেখে মনে হচ্ছিল আজ বৃষ্টি নামবে। কিন্তু সেদিকে তার কোনো খেয়াল ছিল না..."
+							android:textSize="14sp"
+							android:textColor="#9CA8AE"
+							android:maxLines="2"
+							android:ellipsize="end" />
+					</LinearLayout>
+				</LinearLayout>
+			</ScrollView>
+		</RelativeLayout>
+		<LinearLayout
+			android:id="@+id/layout_word_counter"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#1A1A1E"
+			android:orientation="vertical"
+			android:visibility="gone">
+			<LinearLayout
+				android:id="@+id/linear235"
+				android:layout_width="match_parent"
+				android:layout_height="56dp"
+				android:background="#1E1E24"
+				android:gravity="center_vertical"
+				android:orientation="horizontal"
+				android:paddingHorizontal="8dp"
+				android:elevation="4dp">
+				<ImageView
+					android:id="@+id/wcBtnBack"
+					android:layout_width="32dp"
+					android:layout_height="32dp"
+					android:padding="6dp"
+					android:background="?attr/selectableItemBackgroundBorderless"
+					android:src="@drawable/icon_keyboard_backspace_round"
+					android:scaleType="fitCenter"
+					app:tint="#8AB4F8" />
+				<View
+					android:id="@+id/view236"
+					android:layout_width="0dp"
+					android:layout_height="0dp"
+					android:layout_weight="1" />
+				<ImageView
+					android:id="@+id/wcBtnUndo"
+					android:layout_width="32dp"
+					android:layout_height="32dp"
+					android:padding="6dp"
+					android:background="?attr/selectableItemBackgroundBorderless"
+					android:src="@drawable/icon_undo_round"
+					android:scaleType="fitCenter"
+					android:layout_marginEnd="8dp"
+					app:tint="#8AB4F8" />
+				<ImageView
+					android:id="@+id/wcBtnRedo"
+					android:layout_width="32dp"
+					android:layout_height="32dp"
+					android:padding="6dp"
+					android:background="?attr/selectableItemBackgroundBorderless"
+					android:src="@drawable/icon_redo_round"
+					android:scaleType="fitCenter"
+					app:tint="#8AB4F8" />
+				<ImageView
+					android:id="@+id/wcBtnConvert"
+					android:layout_width="32dp"
+					android:layout_height="32dp"
+					android:padding="6dp"
+					android:background="?attr/selectableItemBackgroundBorderless"
+					android:scaleType="fitCenter"
+					android:src="@android:drawable/ic_menu_sort_alphabetically"
+					android:layout_marginStart="8dp"
+					app:tint="#108F6E" />
+				<View
+					android:id="@+id/view237"
+					android:layout_width="0dp"
+					android:layout_height="0dp"
+					android:layout_weight="1" />
+				<ImageView
+					android:id="@+id/wcBtnEdit"
+					android:layout_width="32dp"
+					android:layout_height="32dp"
+					android:padding="6dp"
+					android:background="?attr/selectableItemBackgroundBorderless"
+					android:src="@drawable/icon_edit_note_round"
+					android:scaleType="fitCenter"
+					android:layout_marginEnd="8dp"
+					app:tint="#34A853"
+					android:visibility="gone" />
+				<ImageView
+					android:id="@+id/wcBtnDetails"
+					android:layout_width="32dp"
+					android:layout_height="32dp"
+					android:padding="6dp"
+					android:background="?attr/selectableItemBackgroundBorderless"
+					android:src="@drawable/icon_details_round"
+					android:scaleType="fitCenter"
+					android:layout_marginEnd="8dp"
+					app:tint="#8AB4F8" />
+				<ImageView
+					android:id="@+id/wcBtnSave"
+					android:layout_width="32dp"
+					android:layout_height="32dp"
+					android:padding="6dp"
+					android:background="?attr/selectableItemBackgroundBorderless"
+					android:src="@drawable/icon_check_round"
+					android:scaleType="fitCenter"
+					android:layout_marginEnd="8dp"
+					app:tint="#34A853" />
+				<ImageView
+					android:id="@+id/wcBtnMore"
+					android:layout_width="32dp"
+					android:layout_height="32dp"
+					android:padding="6dp"
+					android:background="?attr/selectableItemBackgroundBorderless"
+					android:src="@drawable/icon_more_vert_round"
+					android:scaleType="fitCenter"
+					app:tint="#8AB4F8" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear238"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="#1E1E24"
+				android:orientation="horizontal"
+				android:weightSum="3"
+				android:paddingVertical="12dp">
+				<LinearLayout
+					android:id="@+id/linear239"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="vertical"
+					android:layout_weight="1">
+					<TextView
+						android:id="@+id/textview224"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Words"
+						android:textSize="14sp"
+						android:textStyle="bold"
+						android:textColor="#A0A0A0" />
+					<TextView
+						android:id="@+id/tvTopWord"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="0"
+						android:textSize="20sp"
+						android:textColor="#FFFFFF" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear240"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="vertical"
+					android:layout_weight="1">
+					<TextView
+						android:id="@+id/textview225"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Characters"
+						android:textSize="14sp"
+						android:textStyle="bold"
+						android:textColor="#A0A0A0" />
+					<TextView
+						android:id="@+id/tvTopChar"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="0"
+						android:textSize="20sp"
+						android:textColor="#FFFFFF" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear241"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="vertical"
+					android:layout_weight="1">
+					<TextView
+						android:id="@+id/textview226"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Bytes"
+						android:textSize="14sp"
+						android:textStyle="bold"
+						android:textColor="#A0A0A0" />
+					<TextView
+						android:id="@+id/tvTopBytes"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="0"
+						android:textSize="20sp"
+						android:textColor="#FFFFFF" />
+				</LinearLayout>
+			</LinearLayout>
+			<androidx.core.widget.NestedScrollView
+				android:id="@+id/vscroll25"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:fillViewport="true">
+				<LinearLayout
+					android:id="@+id/linear2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+					<EditText
+						android:id="@+id/etNoteTitleBig"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:paddingTop="20dp"
+						android:paddingBottom="6dp"
+						android:background="@android:color/transparent"
+						android:textSize="22sp"
+						android:textStyle="bold"
+						android:hint="নোটের শিরোনাম..."
+						android:textColorHint="#757575"
+						android:inputType="textCapSentences"
+						android:paddingStart="16dp"
+						android:paddingEnd="16dp" />
+					<EditText
+						android:id="@+id/etInputText"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="16dp"
+						android:textSize="18sp"
+						android:textColor="#E0E0E0"
+						android:hint="Type or paste text here..."
+						android:textColorHint="#757575"
+						android:gravity="top|start"
+						android:background="@null"
+						android:inputType="textMultiLine|textCapSentences"
+						android:minHeight="300dp"
+						android:lineSpacingExtra="6dp" />
+				</LinearLayout>
+			</androidx.core.widget.NestedScrollView>
+		</LinearLayout>
+		<RelativeLayout
+			android:id="@+id/layout_notepad"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#121212"
+			android:visibility="visible">
+			<LinearLayout
+				android:id="@+id/toolbarNotepad"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:background="#1E1E24"
+				android:gravity="center_vertical"
+				android:orientation="horizontal"
+				android:paddingHorizontal="16dp"
+				android:elevation="4dp">
+				<TextView
+					android:id="@+id/tvNotepadTitle"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:background="?attr/selectableItemBackground"
+					android:text="TunePad"
+					android:textSize="22sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"
+					android:layout_weight="1" />
+				<EditText
+					android:id="@+id/etSearchNotes"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:textSize="16sp"
+					android:textColor="#FFFFFF"
+					android:hint="Search notes..."
+					android:textColorHint="#757575"
+					android:singleLine="true"
+					android:layout_weight="1"
+					android:background="@null"
+					android:visibility="gone" />
+				<ImageView
+					android:id="@+id/btnSearch"
+					android:layout_width="32dp"
+					android:layout_height="32dp"
+					android:padding="6dp"
+					android:background="?attr/selectableItemBackgroundBorderless"
+					android:src="@drawable/default_image"
+					android:scaleType="fitCenter"
+					app:tint="#8AB4F8" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/layoutSecretMerosa"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="16dp"
+				android:padding="16dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal"
+				android:layout_marginHorizontal="16dp"
+				android:elevation="6dp"
+				android:visibility="gone"
+				android:layout_below="@id/toolbarNotepad">
+				<ImageView
+					android:id="@+id/imgSecretIcon"
+					android:layout_width="28dp"
+					android:layout_height="28dp"
+					android:scaleType="center"
+					android:src="@android:drawable/ic_menu_sort_alphabetically" />
+				<TextView
+					android:id="@+id/tvSecretText"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="মেরোসা কনভার্টার ওপেন করুন"
+					android:textSize="16sp"
+					android:textStyle="bold"
+					android:layout_marginStart="12dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/layoutNoNotes"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="vertical"
+				android:visibility="gone">
+				<ImageView
+					android:id="@+id/imageview90"
+					android:layout_width="80dp"
+					android:layout_height="80dp"
+					android:src="@drawable/default_image"
+					android:scaleType="fitCenter"
+					app:tint="#424242" />
+				<TextView
+					android:id="@+id/tvNoNotesText"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="16dp"
+					android:text="No saved notes!"
+					android:textSize="18sp"
+					android:textColor="#757575" />
+			</LinearLayout>
+			<androidx.recyclerview.widget.RecyclerView
+				android:id="@+id/recyclerViewNotes"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:clipToPadding="false"
+				android:layout_below="@id/toolbarNotepad" />
+		</RelativeLayout>
+		<RelativeLayout
+			android:id="@+id/layout_drafts"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#121212"
+			android:visibility="gone">
+			<LinearLayout
+				android:id="@+id/toolbarDrafts"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:background="#1E1E24"
+				android:gravity="center_vertical"
+				android:orientation="horizontal"
+				android:paddingHorizontal="16dp"
+				android:elevation="4dp">
+				<TextView
+					android:id="@+id/textview227"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:text="Auto-Saved Drafts"
+					android:textSize="22sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"
+					android:layout_weight="1" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/layoutNoDrafts"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="vertical"
+				android:visibility="gone">
+				<ImageView
+					android:id="@+id/imageview91"
+					android:layout_width="80dp"
+					android:layout_height="80dp"
+					android:src="@drawable/default_image"
+					android:scaleType="fitCenter"
+					app:tint="#424242" />
+				<TextView
+					android:id="@+id/textview228"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="16dp"
+					android:text="No drafts found!"
+					android:textSize="18sp"
+					android:textColor="#757575" />
+			</LinearLayout>
+			<androidx.recyclerview.widget.RecyclerView
+				android:id="@+id/recyclerViewDrafts"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:clipToPadding="false"
+				android:layout_below="@id/toolbarDrafts" />
+		</RelativeLayout>
+		<RelativeLayout
+			android:id="@+id/layout_vault"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#0A0A0A"
+			android:visibility="gone">
+			<LinearLayout
+				android:id="@+id/toolbarVault"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:background="#1A1A1A"
+				android:gravity="center_vertical"
+				android:orientation="horizontal"
+				android:paddingHorizontal="16dp"
+				android:elevation="8dp">
+				<ImageView
+					android:id="@+id/btnExitVault"
+					android:layout_width="32dp"
+					android:layout_height="32dp"
+					android:padding="6dp"
+					android:background="?attr/selectableItemBackgroundBorderless"
+					android:src="@drawable/default_image"
+					android:scaleType="fitCenter"
+					app:tint="#E53935" />
+				<ImageView
+					android:id="@+id/imageview92"
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:src="@drawable/default_image"
+					android:scaleType="fitCenter"
+					app:tint="#8AB4F8"
+					android:layout_marginStart="16dp" />
+				<TextView
+					android:id="@+id/textview229"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:text="Secret Vault"
+					android:textSize="22sp"
+					android:textStyle="bold"
+					android:textColor="#8AB4F8"
+					android:layout_weight="1"
+					android:layout_marginStart="8dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/layoutNoVault"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="vertical"
+				android:visibility="gone">
+				<ImageView
+					android:id="@+id/imageview93"
+					android:layout_width="80dp"
+					android:layout_height="80dp"
+					android:src="@drawable/default_image"
+					android:scaleType="fitCenter"
+					app:tint="#424242" />
+				<TextView
+					android:id="@+id/textview230"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="16dp"
+					android:text="Vault is secure and empty."
+					android:textSize="18sp"
+					android:textColor="#757575" />
+			</LinearLayout>
+			<androidx.recyclerview.widget.RecyclerView
+				android:id="@+id/recyclerViewVault"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:clipToPadding="false"
+				android:layout_below="@id/toolbarVault" />
+		</RelativeLayout>
+	</FrameLayout>
+	<com.google.android.material.bottomnavigation.BottomNavigationView
+		android:id="@+id/bottom_navigation"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#1E1E24"
+		app:elevation="8dp"
+		app:menu="@menu/bottom_nav_menu"
+		app:itemIconTint="#A0A0A0"
+		app:itemTextColor="#A0A0A0"
+		android:layout_alignParentBottom="true" />
+	<TextView
+		android:id="@+id/tvStatus"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="12sp"
+		android:visibility="gone" />
+</RelativeLayout>

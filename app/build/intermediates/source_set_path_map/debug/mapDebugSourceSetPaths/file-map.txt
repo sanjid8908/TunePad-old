@@ -1,0 +1,40 @@
+com.megh.notepad.app-appcompat-1.7.1-0 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\035f329667abb9a7950e0aafaedf10b2\transformed\appcompat-1.7.1\res
+com.megh.notepad.app-jetified-datastore-preferences-release-1 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\12dcdd57be6616450de6f7a6e8614f8d\transformed\jetified-datastore-preferences-release\res
+com.megh.notepad.app-jetified-annotation-experimental-1.4.0-2 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\139fb2ee5e572eca6cc003173d985354\transformed\jetified-annotation-experimental-1.4.0\res
+com.megh.notepad.app-jetified-emoji2-1.3.0-3 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\1b0fc6eb290b91bdb7d2fb6e32062473\transformed\jetified-emoji2-1.3.0\res
+com.megh.notepad.app-lifecycle-runtime-2.6.2-4 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\21ae82b4896f4f2c66372836c69020f9\transformed\lifecycle-runtime-2.6.2\res
+com.megh.notepad.app-jetified-activity-1.8.0-5 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\26483246e6f1b84b6280042e9ed2ac7a\transformed\jetified-activity-1.8.0\res
+com.megh.notepad.app-jetified-firebase-common-22.0.0-6 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\2febbfcb53b2b8d738c8edae60d9408d\transformed\jetified-firebase-common-22.0.0\res
+com.megh.notepad.app-jetified-core-ktx-1.13.0-7 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\3755cff70dd8415631f53b69d306d38b\transformed\jetified-core-ktx-1.13.0\res
+com.megh.notepad.app-jetified-datastore-core-release-8 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\4a2c6bc08123cd98818eb27840ee768d\transformed\jetified-datastore-core-release\res
+com.megh.notepad.app-recyclerview-1.1.0-9 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\54842175c582d86b8411619da144eda8\transformed\recyclerview-1.1.0\res
+com.megh.notepad.app-fragment-1.5.4-10 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\599c8f72a2933489eb268d63a8e26f3e\transformed\fragment-1.5.4\res
+com.megh.notepad.app-jetified-appcompat-resources-1.7.1-11 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\59ad0b3b7b96ee80c3c9b79f215b6811\transformed\jetified-appcompat-resources-1.7.1\res
+com.megh.notepad.app-lifecycle-livedata-2.6.2-12 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\6254f518f8a92399c4510a6781f59893\transformed\lifecycle-livedata-2.6.2\res
+com.megh.notepad.app-jetified-lifecycle-process-2.6.2-13 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\64b61badfc5045d847374102b9e73638\transformed\jetified-lifecycle-process-2.6.2\res
+com.megh.notepad.app-coordinatorlayout-1.1.0-14 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\6ef3e422550a1f76da3a7bc4df0fc1e0\transformed\coordinatorlayout-1.1.0\res
+com.megh.notepad.app-drawerlayout-1.1.1-15 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\70bbbfd0ebeda922b1c2aa2d8c91b95b\transformed\drawerlayout-1.1.1\res
+com.megh.notepad.app-lifecycle-viewmodel-2.6.2-16 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\752e31a1a2187d303f9de357e1b6e088\transformed\lifecycle-viewmodel-2.6.2\res
+com.megh.notepad.app-jetified-viewpager2-1.0.0-17 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\7959fc46813ac88f958e308080a8bee9\transformed\jetified-viewpager2-1.0.0\res
+com.megh.notepad.app-jetified-savedstate-1.2.1-18 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\8cae0d68656a7da08241a87cb255d081\transformed\jetified-savedstate-1.2.1\res
+com.megh.notepad.app-jetified-play-services-base-18.1.0-19 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\91845773217a2612a5167fa498606725\transformed\jetified-play-services-base-18.1.0\res
+com.megh.notepad.app-lifecycle-livedata-core-2.6.2-20 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\9330faba3d8d77fe0fa51f975a5aee49\transformed\lifecycle-livedata-core-2.6.2\res
+com.megh.notepad.app-jetified-play-services-basement-18.3.0-21 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\9876039da56c5ef9084abe22b3ed4664\transformed\jetified-play-services-basement-18.3.0\res
+com.megh.notepad.app-cardview-1.0.0-22 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\a8c9f30e375956ee25cc4832aac30e39\transformed\cardview-1.0.0\res
+com.megh.notepad.app-constraintlayout-2.0.1-23 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\c4a279fd86751ec6886ffc5232dbd570\transformed\constraintlayout-2.0.1\res
+com.megh.notepad.app-jetified-datastore-release-24 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\c7c628ab9a6c61477cca5a8ce191b6d2\transformed\jetified-datastore-release\res
+com.megh.notepad.app-jetified-startup-runtime-1.1.1-25 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\d45f46715d1bb836e8dd7d3af1a0faf0\transformed\jetified-startup-runtime-1.1.1\res
+com.megh.notepad.app-core-runtime-2.2.0-26 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\d825eaeb2dd91b6f5c971f14264b3516\transformed\core-runtime-2.2.0\res
+com.megh.notepad.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-27 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\d82750bf5626d856113631f83ff696e0\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\res
+com.megh.notepad.app-jetified-emoji2-views-helper-1.3.0-28 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\db9ece13cfb4872b1e9d9a2fc1662068\transformed\jetified-emoji2-views-helper-1.3.0\res
+com.megh.notepad.app-transition-1.5.0-29 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\e17de5cec7f23127ad931e5d6bd5bc97\transformed\transition-1.5.0\res
+com.megh.notepad.app-material-1.12.0-30 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\e44110e2028213d4e8855ead68d021b1\transformed\material-1.12.0\res
+com.megh.notepad.app-jetified-profileinstaller-1.3.1-31 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\f8e43da8573069b83e9c385efbdbb56b\transformed\jetified-profileinstaller-1.3.1\res
+com.megh.notepad.app-core-1.13.0-32 C:\Users\Suprohor\.gradle\caches\9.0.0\transforms\ff2641c1fe32a076b51772941a51d9e6\transformed\core-1.13.0\res
+com.megh.notepad.app-pngs-33 C:\Users\Suprohor\Documents\06_Archives\Tunepad old\app\build\generated\res\pngs\debug
+com.megh.notepad.app-resValues-34 C:\Users\Suprohor\Documents\06_Archives\Tunepad old\app\build\generated\res\resValues\debug
+com.megh.notepad.app-packageDebugResources-35 C:\Users\Suprohor\Documents\06_Archives\Tunepad old\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.megh.notepad.app-packageDebugResources-36 C:\Users\Suprohor\Documents\06_Archives\Tunepad old\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.megh.notepad.app-debug-37 C:\Users\Suprohor\Documents\06_Archives\Tunepad old\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.megh.notepad.app-debug-38 C:\Users\Suprohor\Documents\06_Archives\Tunepad old\app\src\debug\res
+com.megh.notepad.app-main-39 C:\Users\Suprohor\Documents\06_Archives\Tunepad old\app\src\main\res

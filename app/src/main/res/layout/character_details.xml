@@ -1,0 +1,128 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/rootCharDetailsView"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/toolbarLayout"
+		android:layout_width="match_parent"
+		android:padding="16dp"
+		android:gravity="center_vertical"
+		android:layout_height="?attr/actionBarSize">
+		<ImageView
+			android:id="@+id/btnBack"
+			android:layout_width="28dp"
+			android:layout_height="28dp"
+			android:background="?attr/selectableItemBackgroundBorderless"
+			android:scaleType="fitCenter"
+			android:src="@android:drawable/ic_menu_revert" />
+		<TextView
+			android:id="@+id/tvToolbarTitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="চরিত্র পরিচিতি"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:layout_marginStart="16dp" />
+		<View
+			android:id="@+id/view14"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_weight="1" />
+		<ImageView
+			android:id="@+id/btnEditCharacter"
+			android:layout_width="28dp"
+			android:layout_height="28dp"
+			android:background="?attr/selectableItemBackgroundBorderless"
+			android:scaleType="fitCenter"
+			android:src="@android:drawable/ic_menu_edit" />
+	</LinearLayout>
+	<androidx.core.widget.NestedScrollView
+		android:id="@+id/vscroll4"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:fillViewport="true">
+		<LinearLayout
+			android:id="@+id/linear15"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingBottom="48dp"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear16"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingTop="24dp"
+				android:paddingBottom="24dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="vertical">
+				<androidx.cardview.widget.CardView
+					android:id="@+id/cardview4"
+					android:layout_width="140dp"
+					android:layout_height="140dp"
+					app:cardCornerRadius="70dp"
+					app:cardElevation="8dp">
+					<ImageView
+						android:id="@+id/imgCharProfile"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:src="@drawable/default_image"
+						android:scaleType="fitCenter" />
+					<TextView
+						android:id="@+id/tvCharInitials"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:gravity="center_horizontal|center_vertical"
+						android:textSize="48sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:visibility="gone" />
+				</androidx.cardview.widget.CardView>
+				<TextView
+					android:id="@+id/tvCharNameLarge"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="16dp"
+					android:text="চরিত্রের নাম"
+					android:textSize="26sp"
+					android:textStyle="bold" />
+				<TextView
+					android:id="@+id/tvStoryName"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="4dp"
+					android:text="গল্প: প্রজেক্টের নাম"
+					android:textSize="14sp" />
+				<TextView
+					android:id="@+id/tvCharRoleBadge"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="12dp"
+					android:paddingTop="6dp"
+					android:paddingBottom="6dp"
+					android:text="মূল চরিত্র"
+					android:textSize="12sp"
+					android:textStyle="bold"
+					android:paddingStart="16dp"
+					android:paddingEnd="16dp" />
+			</LinearLayout>
+			<View
+				android:id="@+id/dividerLine"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:layout_marginBottom="16dp"
+				android:layout_marginStart="32dp"
+				android:layout_marginEnd="32dp" />
+			<LinearLayout
+				android:id="@+id/charDetailsContainer"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:paddingStart="24dp"
+				android:paddingEnd="24dp" />
+		</LinearLayout>
+	</androidx.core.widget.NestedScrollView>
+</LinearLayout>

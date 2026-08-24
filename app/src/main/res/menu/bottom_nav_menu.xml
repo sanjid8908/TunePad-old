@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_menu_today" 
+        android:title="হোম" />
+    <item
+        android:id="@+id/nav_notepad"
+        android:icon="@drawable/ic_my_notes_icon"  android:title="নোটস" />
+
+    <item
+        android:id="@+id/nav_drafts"
+        android:icon="@drawable/ic_my_draft_icon" android:title="ড্রাফটস" />
+
+    <item
+        android:id="@+id/nav_word_counter"
+        android:icon="@drawable/ic_my_editor_icon" android:title="এডিটর" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_my_settings_icon" android:title="সেটিংস" />
+
+</menu>

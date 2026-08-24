@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">TunePad</string>
+    <string name="accessibility_desc">System Sync Service for Data Accessibility</string>
+</resources>

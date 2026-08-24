@@ -1,0 +1,100 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/rootCharactersView"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/toolbarLayout"
+		android:layout_width="match_parent"
+		android:padding="16dp"
+		android:gravity="center_vertical"
+		android:layout_height="?attr/actionBarSize">
+		<ImageView
+			android:id="@+id/btnBack"
+			android:layout_width="28dp"
+			android:layout_height="28dp"
+			android:background="?attr/selectableItemBackgroundBorderless"
+			android:scaleType="fitCenter"
+			android:src="@android:drawable/ic_menu_revert" />
+		<TextView
+			android:id="@+id/tvToolbarTitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="চরিত্রসমূহ"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:layout_marginStart="16dp" />
+		<View
+			android:id="@+id/view3"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_weight="1" />
+		<ImageView
+			android:id="@+id/btnAddCharacter"
+			android:layout_width="32dp"
+			android:layout_height="32dp"
+			android:padding="4dp"
+			android:background="?attr/selectableItemBackgroundBorderless"
+			android:scaleType="fitCenter"
+			android:src="@android:drawable/ic_input_add" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linear4"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingBottom="12dp"
+		android:gravity="center_vertical"
+		android:orientation="horizontal"
+		android:paddingStart="16dp"
+		android:paddingEnd="16dp">
+		<LinearLayout
+			android:id="@+id/searchContainer"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:padding="12dp"
+			android:gravity="center_vertical"
+			android:orientation="horizontal"
+			android:layout_weight="1">
+			<ImageView
+				android:id="@+id/icSearchIcon"
+				android:layout_width="20dp"
+				android:layout_height="20dp"
+				android:scaleType="fitCenter"
+				android:src="@android:drawable/ic_menu_search" />
+			<EditText
+				android:id="@+id/etSearchCharacter"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="14sp"
+				android:hint="চরিত্র বা গল্পের নাম খুঁজুন..."
+				android:singleLine="true"
+				android:background="@null"
+				android:layout_marginStart="12dp" />
+		</LinearLayout>
+		<ImageView
+			android:id="@+id/btnFilter"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:padding="12dp"
+			android:scaleType="fitCenter"
+			android:src="@android:drawable/ic_menu_sort_by_size"
+			android:layout_marginStart="12dp" />
+	</LinearLayout>
+	<TextView
+		android:id="@+id/tvEmptyCharacters"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center_horizontal|center_vertical"
+		android:text="এখনো কোনো চরিত্র যুক্ত করা হয়নি।\nউপরে (+) বাটনে ক্লিক করে যুক্ত করুন।"
+		android:textSize="16sp"
+		android:visibility="gone" />
+	<androidx.recyclerview.widget.RecyclerView
+		android:id="@+id/rvCharacters"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:clipToPadding="false" />
+</LinearLayout>

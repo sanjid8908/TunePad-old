@@ -1,0 +1,70 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/rootView"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#192125">
+	<LinearLayout
+		android:id="@+id/toolbarLayout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="16dp"
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+		<ImageView
+			android:id="@+id/btnBack"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:padding="12dp"
+			android:background="?attr/selectableItemBackgroundBorderless"
+			android:scaleType="fitCenter"
+			android:src="@android:drawable/ic_menu_revert"
+			android:focusable="true" />
+		<TextView
+			android:id="@+id/tvToolbarTitle"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="গ্লোবাল আইডিয়া"
+			android:textSize="22sp"
+			android:textStyle="bold"
+			android:layout_weight="1"
+			android:paddingStart="8dp"
+			android:paddingEnd="8dp" />
+	</LinearLayout>
+	<EditText
+		android:id="@+id/etSearch"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="16dp"
+		android:padding="14dp"
+		android:background="@android:color/transparent"
+		android:textSize="12sp"
+		android:hint="আইডিয়া খুঁজুন..."
+		android:singleLine="true"
+		android:layout_marginHorizontal="16dp"
+		android:drawableStart="@android:drawable/ic_menu_search"
+		android:drawablePadding="12dp"
+		android:elevation="2dp"
+		android:layout_below="@id/toolbarLayout" />
+	<androidx.recyclerview.widget.RecyclerView
+		android:id="@+id/rvIdeas"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:paddingBottom="90dp"
+		android:clipToPadding="false"
+		android:layout_below="@id/etSearch" />
+	<ImageView
+		android:id="@+id/btnAddIdea"
+		android:layout_width="64dp"
+		android:layout_height="64dp"
+		android:layout_margin="24dp"
+		android:padding="16dp"
+		android:scaleType="fitCenter"
+		android:src="@android:drawable/ic_input_add"
+		android:elevation="8dp"
+		android:focusable="true"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentEnd="true" />
+</RelativeLayout>

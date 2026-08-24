@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.megh.notepad.app-mergeDebugResources-35:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Suprohor\\.gradle\\caches\\9.0.0\\transforms\\035f329667abb9a7950e0aafaedf10b2\\transformed\\appcompat-1.7.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}
